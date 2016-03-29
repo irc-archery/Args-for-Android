@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menu_mypage"
+        android:showAsAction="always"
+        android:title="マイページ"/>
+
+    <item
+        android:id="@+id/menu_orgpage"
+        android:showAsAction="always"
+        android:title="団体ページ"/>
+
+    <item
+        android:id="@+id/menu_matchlist"
+        android:showAsAction="always"
+        android:title="試合一覧"/>
+
+    <item
+        android:id="@+id/menu_createmat"
+        android:showAsAction="always"
+        android:title="試合作成"/>
+
+    <item
+        android:id="@+id/menu_scorelist"
+        android:showAsAction="always"
+        android:title="得点表一覧"/>
+
+    <item
+        android:id="@+id/menu_createsco"
+        android:showAsAction="always"
+        android:title="得点表作成"/>
+
+    <item
+        android:id="@+id/menu_logout"
+        android:showAsAction="always"
+        android:title="ログアウト"/>
+</menu>

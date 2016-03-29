@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<item android:id="@+id/button1" android:title="新規作成 "
+        android:orderInCategory="100" app:showAsAction="always" />-->
+
+    <item
+        android:id="@+id/button1"
+        android:showAsAction="always"
+        android:title="新規作成"/>
+</menu>

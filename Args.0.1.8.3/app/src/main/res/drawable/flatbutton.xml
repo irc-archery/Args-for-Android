@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 選択状態の選択肢が押されたとき -->
+    <item
+        android:state_checked="true"
+        android:state_pressed="true"
+        android:drawable="@drawable/abc_btn_radio_to_on_mtrl_015"
+        />
+    <!-- 選択されているとき -->
+    <item
+        android:state_checked="true"
+        android:drawable="@drawable/abc_btn_radio_to_on_mtrl_015"
+        />
+    <!-- 選択されていない選択肢が押されたとき -->
+    <item
+        android:state_checked="false"
+        android:state_pressed="true"
+        android:drawable="@drawable/abc_btn_radio_to_on_mtrl_015"
+        />
+    <!-- 選択されていない選択肢にフォーカスがあたったとき -->
+    <item
+        android:state_focused="true"
+        android:state_checked="false"
+        android:state_pressed="false"
+        android:drawable="@drawable/abc_btn_radio_to_on_mtrl_015"
+        />
+    <!-- 選択されていない選択肢のデフォルト状態 -->
+    <item
+        android:state_checked="false"
+        android:drawable="@drawable/abc_btn_radio_to_on_mtrl_000"
+        />
+</selector>
